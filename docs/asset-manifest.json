@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pure-react-credit-card/static/css/main.fb3df836.css",
+    "main.js": "/pure-react-credit-card/static/js/main.d2e6b316.js",
+    "index.html": "/pure-react-credit-card/index.html",
+    "main.fb3df836.css.map": "/pure-react-credit-card/static/css/main.fb3df836.css.map",
+    "main.d2e6b316.js.map": "/pure-react-credit-card/static/js/main.d2e6b316.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb3df836.css",
+    "static/js/main.d2e6b316.js"
+  ]
+}

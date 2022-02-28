@@ -1,0 +1,98 @@
+/* index.css */
+
+body {
+	font-family: Menlo, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.credit-card {
+	position: relative;
+	box-sizing: border-box;
+	border: solid 2.5em transparent;
+	display: block;
+	background: #2C5BB0;
+	border-radius: 1.8em;
+	width: 500px;
+	height: 21em;
+	color: rgba(255, 255, 255, 0.83);
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.credit-card p,
+.credit-card h2 {
+	margin: 0;
+}
+
+.credit-card .card-title {
+	/* outline: solid 1px red; */
+	text-align: right;
+	font-size: 2.5em;
+	line-height: 1;
+	white-space: pre-wrap;
+	padding-bottom: 1.8em;
+	margin: 0;
+	font-weight: 600;
+	width: 100%;
+}
+
+.credit-card .card-number,
+.credit-card .card-name {
+	font-family: Monaco, sans-serif;
+	font-size: 1.6em;
+}
+
+.credit-card .card-number {
+	text-align: center;
+	/* outline: solid 1px red; */
+	letter-spacing: 0.23em;
+	padding-bottom: 0.8em;
+	word-spacing: 0.2em;
+	font-weight: 200;
+}
+
+.credit-card .card-name {
+	font-family: Monaco, sans-serif;
+	margin-top: 0.
+}
+
+.credit-card .card-first-four {
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-top: -0.8rem;
+}
+
+.credit-card .card-name {
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+}
+
+.credit-card .card-exp {
+	/* outline: solid 2px cyan; */
+	margin-bottom: 1.5em;
+	margin-left: 8em;
+}
+
+.credit-card .card-exp-label {
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+
+}
+
+.credit-card .card-exp-date {
+	font-size: 2em;
+	height: 1.5em;
+	padding-left: 1.8em;
+	line-height: 1;
+}
